@@ -12,7 +12,7 @@ const CakeContainer = (props:CakeContainerProps) => {
     return (
         <div className="flex flex-col justify-center items-center gap-3 mt-4">
             <h1>Number of Available Cakes: {numOfCakes} </h1>
-            <button className="border border-black rounded-sm px-2 hover:bg-slate-200">Buy Cake</button>
+            <button onClick={()=> buyCake()} className="border border-black rounded-sm px-2 hover:bg-slate-200">Buy Cake</button>
         </div>
     )
 }

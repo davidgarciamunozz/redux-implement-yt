@@ -6,7 +6,7 @@ export interface CakeState {
 }
 
 export const initialState:CakeState = {
-    numOfCakes: 10
+    numOfCakes: 20
 }
 
 
